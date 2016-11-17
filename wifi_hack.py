@@ -1,20 +1,22 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# 
-# Start:
-#   $ sudo apt-get install wireless-tools python-pip
-#   $ sudo pip install requests pycrypto
-# 
-# Usage:
-#   ./wifi_hack.py -h
-#   
-# Author:
-#   <md5_salt [AT] qq.com> 
-#        https://github.com/5alt/lianwifi
-#   <root@kings-way.info> 
-#       https://github.com/kings-way/WiFi-MasterKey-in-Linux
-#   <laikinfox@gmail.com> 
-#       https://github.com/kingcc/wifi-hack   
+
+'''
+    Start:
+      $ sudo apt-get install wireless-tools python-pip
+      $ sudo pip install requests pycrypto
+
+    Usage:
+      ./wifi_hack.py -h
+      
+    Author:
+      5alt <md5_salt#qq.com>
+           https://github.com/5alt/lianwifi
+      Kings-way <root#kings-way.info> 
+          https://github.com/kings-way/WiFi-MasterKey-in-Linux
+      Kingcc <laikinfox#gmail.com> 
+          https://github.com/kingcc/wifi-hack  
+'''  
 
 import md5
 from Crypto.Cipher import AES
