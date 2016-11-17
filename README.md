@@ -3,11 +3,12 @@
 A wifi-hack script to encapsulate Wifi-Master-Key API.
 
     Start:
+      $ git clone https://github.com/kingcc/wifi-hack.git && cd wifi-hack
       $ sudo apt-get install wireless-tools python-pip
       $ sudo pip install requests pycrypto
 
     Usage:
-      ./wifi_hack.py -h
+      $ ./wifi_hack.py -h
       
     Author:
       5alt <md5_salt#qq.com>
